@@ -45,7 +45,17 @@ html,body,h2,h3,h4,p,h5,li {font-family: Roboto, sans-serif}
 
 
 <body class="bground-color">
+	<header class="header" id="header" data-aos="fade-down">
+        <a href="#" class="logo">Rice leaf disease detector</a>
 
+        <i class="ri-menu-line" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
 
 <!-- w3-content defines a container for fixed size centered content,
@@ -55,7 +65,7 @@ and is wrapped around the whole page content. -->
 
 
 <!-- 1. HOME PAGE -->
-<div class="tabbed w3-animate-opacity w3-white" id="home">
+<div class="tabbed w3-animate-opacity w3-black" id="home">
 
 	
 
@@ -82,20 +92,20 @@ and is wrapped around the whole page content. -->
 
 
 <div class="w3-center">
-	<div  class="progress-bar w3-text-teal space-letters">
+	<div  class="progress-bar w3-text-teal space-letters w3-padding-bottom">
 	<p>Model is loading...</p></div>
 </div>
 
 
 
 <!-- Progress Bar -->
-<div class="w3-light-grey side-margin w3-opacity">
-<div  id="myBar" class="w3-container w3-blue" style="height:5px;width:0%"></div>
+<div class="w3-light-grey side-margin w3-opacity ">
+<div  id="myBar" class="w3-container w3-blue w3-padding-bottom" style="height:8px;width:0%"></div>
 </div>
 
 
 
-<div class="w3-center w3-border add-margin side-margin w3-round w3-sand
+<div class="w3-center w3-border add-margin side-margin w3-round  w3-padding-top w3-sand
 text-color space-letters bottom-margin">
 	
 	<p id="status" class='space-letters text-color mob-font1'></p>
@@ -107,17 +117,17 @@ text-color space-letters bottom-margin">
 
 
 
-<div class='w3-padding'>
-	<p class='w3-round w3-margin w3-margin-bottom w3-text-teal w3-small space-letters'>
+<!-- <div class='w3-padding'>
+	<p class='w3-round w3-margin w3-margin-bottom w3-text-teal  w3-padding-top w3-small space-letters'>
 	Please note:<br> This is just a prototype.</p>
-</div> 
+</div>  -->
 
 <!-- Bottom Bar -->
-<div class='w3-center w3-padding-bottom'>
+<!-- <div class='w3-center w3-padding-bottom'>
 	<p class="space-letters w3-text-teal"><a class="w3-small" href="https://woza.work/">
 		<b>woza.work</b></a>
 	</p>
-</div>
+</div> -->
 
 
 </div><!--END OF HOME PAGE-->
