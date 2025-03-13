@@ -475,3 +475,121 @@ li {
 
 
 } /*Close Media Query*/
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000000;
+	color: white;
+    
+}
+
+.services-container {
+    padding: 50px 10%;
+	color: #ffffff;
+    background-color: none;
+    text-align: center;
+}
+
+.services-container h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.services-columns {
+    display: flex;
+	color: #ffffff;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    font-size: 16px;
+	color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contact .con{
+ text-align: center;
+}
+
+.contact-container, .newsletter-container, .working-hours-container ,.company-container{
+    padding: 50px 10%;
+	color: #ffffff;
+    background-color: none;
+    text-align: center;
+}
+
+.contact-container h2, .newsletter-container h2, .working-hours-container h2 ,.company-container h2{
+    font-size: 20px;
+	color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.company-container{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.newsletter-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.newsletter-container button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.working-hours-container p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px 10px 0 0 ;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 20px 0;
+    }
+}
